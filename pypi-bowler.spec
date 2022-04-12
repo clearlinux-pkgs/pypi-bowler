@@ -4,7 +4,7 @@
 #
 Name     : pypi-bowler
 Version  : 0.9.0
-Release  : 8
+Release  : 9
 URL      : https://files.pythonhosted.org/packages/f4/02/4728875b1fc4382ea71e771c3475a2af6ccaf140663b36c8456ebba4ac5a/bowler-0.9.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/f4/02/4728875b1fc4382ea71e771c3475a2af6ccaf140663b36c8456ebba4ac5a/bowler-0.9.0.tar.gz
 Summary  : Safe code refactoring for modern Python projects
@@ -15,9 +15,6 @@ Requires: pypi-bowler-license = %{version}-%{release}
 Requires: pypi-bowler-python = %{version}-%{release}
 Requires: pypi-bowler-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: bowler
-Provides: bowler-python
-Provides: bowler-python3
 BuildRequires : pypi(attrs)
 BuildRequires : pypi(click)
 BuildRequires : pypi(fissix)
@@ -78,7 +75,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641421171
+export SOURCE_DATE_EPOCH=1649721731
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
