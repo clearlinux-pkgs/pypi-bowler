@@ -4,7 +4,7 @@
 #
 Name     : pypi-bowler
 Version  : 0.9.0
-Release  : 11
+Release  : 12
 URL      : https://files.pythonhosted.org/packages/f4/02/4728875b1fc4382ea71e771c3475a2af6ccaf140663b36c8456ebba4ac5a/bowler-0.9.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/f4/02/4728875b1fc4382ea71e771c3475a2af6ccaf140663b36c8456ebba4ac5a/bowler-0.9.0.tar.gz
 Summary  : Safe code refactoring for modern Python projects
